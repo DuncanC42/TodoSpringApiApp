@@ -18,6 +18,7 @@ public class TodoService {
         todos.add(new Todo(++idTodo, "Duncan", "Learn Spring MVC", LocalDate.now(), false));
         todos.add(new Todo(++idTodo, "Duncan", "Learn Struts", LocalDate.now().plusYears(3), false));
         todos.add(new Todo(++idTodo, "in28minutes", "Learn Hibernate", LocalDate.now(), false));
+        todos.add(new Todo(++idTodo, "duncan", "Learn Hibernate", LocalDate.now(), false));
     }
 
     public List<Todo> findByUsername(String user) {
